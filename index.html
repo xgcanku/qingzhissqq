@@ -60,10 +60,11 @@
       window.location.href = url;
     }
 
+
     function jumpToWPA() {
       var qq = document.getElementById("input-qq").value;
-      var url = "https://res.abeim.cn/api-qq.qun?qun=" + qq + "&card_type=person&source=sharecard";
-      window.location.href = url;
+      var url = "https://res.abeim.cn/api-qq.qun?qun=" + qq;
+      window.open(url, '_blank');
     }
   </script>
 </body>
