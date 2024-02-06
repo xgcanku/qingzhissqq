@@ -63,8 +63,8 @@
 
     function jumpToWPA() {
       var qq = document.getElementById("input-qq").value;
-      var url = "https://res.abeim.cn/api-qq.qun?qun=" + qq;
-      window.open(url, '_blank');
+      var url = "mqqapi://card/show_pslcard?src_type=internal&version=1&uin="+qq+"&card_type=group&source=qrcode";
+      window.location.href = url;
     }
   </script>
 </body>
